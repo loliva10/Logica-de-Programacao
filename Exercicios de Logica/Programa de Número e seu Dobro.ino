@@ -10,6 +10,21 @@ void setup()
 
 void loop()
 {
+  
+  //cabeçalho
+  Serial.println("|------------------------------|");
+  Serial.println("|                              |");
+  Serial.println("|        LOPAL - EX_03         |");
+  Serial.println("|                              |");
+  Serial.println("|------------------------------|");
+  
+  
+  Serial.println();//pula uma linha
+  Serial.println();//pula uma linha
+  
+  
+  
+  
  //entrada
   Serial.println("Digite o numero");//Pergunte o número que o usuário deseja ver  o dobro
   while(! Serial.available() ){};//Aguarde o usuario digitar(para o loop)

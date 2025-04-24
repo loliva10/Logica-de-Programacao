@@ -14,8 +14,24 @@ void setup()
   Serial.begin(9600);
 }
 
+
 void loop()
 {
+  
+  //cabeçalho
+  Serial.println("|------------------------------|");
+  Serial.println("|                              |");
+  Serial.println("|        LOPAL - EX_02         |");
+  Serial.println("|                              |");
+  Serial.println("|------------------------------|");
+  
+  
+  Serial.println();//pula uma linha
+  Serial.println();//pula uma linha
+  
+  
+  
+  
   //entrada
   Serial.println("Digite o ano de seu nascimento");//pergunta o ano de nascimento do usuário
   while( !Serial.available() ){}//Aguarda o usuário digitar (para o loop)
